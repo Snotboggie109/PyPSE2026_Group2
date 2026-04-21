@@ -44,8 +44,8 @@ A Product instance can undergo only **one Process**, and there must be **no dire
     st.markdown("### 📄 Documentation")
 
     st.markdown("""
-    Access the full system documentation, including:
-    - System design overview  
+    Access the full app documentation, including:
+    - app design overview  
     - PPR model structure  
     - Implementation details  
 
