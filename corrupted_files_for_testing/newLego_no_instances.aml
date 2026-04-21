@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile xmlns="http://www.dke.de/CAEX" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="3.0" FileName="newLego_no_instances.aml" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="6.4.2.17" LastWritingDateTime="2026-04-20T18:44:34.9506858+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="6.4.2.17" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <InstanceHierarchy Name="InstanceHierarchy" ID="5200bbb8-ef05-4de8-8411-7b98a9ce8a8f">
+    <Version>1.0.0</Version>
+  </InstanceHierarchy>
+  <InterfaceClassLib Name="InterfaceClassLib" ID="d2c2dc41-f230-4c56-a168-6e57984b3d73">
+    <Version>1.0.0</Version>
+    <InterfaceClass Name="PPR_interface" ID="2bbb61ae-ebab-4208-869c-134e650c48f7">
+      <Version>1.0.0</Version>
+      <ExternalInterface Name="PPR_in" ID="ad6bef0d-904c-4517-9a9d-7150e53f1b35" />
+      <ExternalInterface Name="PPR_out" ID="f515c86a-b987-4a18-a9da-8d21acbab082" />
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <SystemUnitClassLib Name="SystemUnitClassLib" ID="776f9f9e-9392-4dc8-b2fc-875c0baf36b2">
+    <Version>1.0.0</Version>
+    <SystemUnitClass Name="Product" ID="a9cad56e-546e-4c12-bd20-4f8040ba6199">
+      <Version>1.0.0</Version>
+      <Attribute Name="color" AttributeDataType="xs:string" />
+      <Attribute Name="size" AttributeDataType="xs:string" />
+      <ExternalInterface Name="PPR_in" ID="5e4e1feb-e437-4937-90e0-20e994995dd8" />
+      <ExternalInterface Name="PPR_out" ID="343a7421-a094-4fab-9c51-ee76ed08509b">
+        <Attribute Name="cardinality" AttributeDataType="xs:int" />
+      </ExternalInterface>
+    </SystemUnitClass>
+    <SystemUnitClass Name="Process" ID="0e024713-44f3-491e-b9f0-c5271f218c95">
+      <Version>1.0.0</Version>
+      <ExternalInterface Name="PPR_in" ID="7721f737-87d4-4bab-8f6b-c739d296cbe5" />
+      <ExternalInterface Name="PPR_out" ID="bc06f505-034c-48b4-a6e8-7c70012ab6d9" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Resource" ID="80df9991-db10-4f7b-8ee2-6dcd5e635ea9">
+      <Version>1.0.0</Version>
+      <ExternalInterface Name="PPR_in" ID="31aa4053-3a6b-4415-81e2-0d040f2b0ae2" />
+      <ExternalInterface Name="PPR_out" ID="9563d707-f224-4b90-bf63-7507b5e873ac" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <AttributeTypeLib Name="AttributeTypeLib" ID="6d33613b-f0e7-40cd-8e1c-2e674bf72ebe">
+    <Version>1.0.0</Version>
+    <AttributeType Name="ppr_attributes" ID="6d1ce123-38c0-4c55-8282-2a79f49df3b2" AttributeDataType="xs:string">
+      <Version>1.0.0</Version>
+      <Attribute Name="color" AttributeDataType="xs:string" />
+      <Attribute Name="size" AttributeDataType="xs:string" />
+      <Attribute Name="cardinality" AttributeDataType="xs:int" />
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
